@@ -10,9 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />	  
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Application\Query.Application.csproj" />
-    <ProjectReference Include="..\Query.Infrastructure\Query.Infrastructure.csproj" />   
+  <ItemGroup>  
+    <ProjectReference Include="..\Query.Application\Query.Application.csproj" />  
+    <ProjectReference Include="..\Query.Infrastructure\Query.Infrastructure.csproj" />  
+    <ProjectReference Include="..\Query.Persistence\Query.Persistence.csproj" />   
   </ItemGroup>
 
 </Project>
